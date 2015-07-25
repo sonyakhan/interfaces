@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		332CE2FA1B5BED5600E17A97 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 332CE2F91B5BED5600E17A97 /* QuartzCore.framework */; };
+		332CE2FD1B5BEDC500E17A97 /* InstagramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 332CE2FC1B5BEDC500E17A97 /* InstagramViewController.m */; };
 		338B6B8F1B5A96C4005313C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 338B6B8E1B5A96C4005313C3 /* main.m */; };
 		338B6B921B5A96C4005313C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 338B6B911B5A96C4005313C3 /* AppDelegate.m */; };
 		338B6B951B5A96C4005313C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338B6B941B5A96C4005313C3 /* ViewController.m */; };
@@ -14,6 +16,7 @@
 		338B6B9A1B5A96C4005313C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338B6B991B5A96C4005313C3 /* Images.xcassets */; };
 		338B6B9D1B5A96C4005313C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338B6B9B1B5A96C4005313C3 /* LaunchScreen.xib */; };
 		338B6BA91B5A96C4005313C3 /* interfacesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 338B6BA81B5A96C4005313C3 /* interfacesTests.m */; };
+		33E9AE8A1B5F2E42000BDB12 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E9AE891B5F2E42000BDB12 /* TwitterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		332CE2F91B5BED5600E17A97 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		332CE2FB1B5BEDC500E17A97 /* InstagramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramViewController.h; sourceTree = "<group>"; };
+		332CE2FC1B5BEDC500E17A97 /* InstagramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramViewController.m; sourceTree = "<group>"; };
 		338B6B891B5A96C4005313C3 /* interfaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = interfaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		338B6B8D1B5A96C4005313C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		338B6B8E1B5A96C4005313C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +46,8 @@
 		338B6BA21B5A96C4005313C3 /* interfacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = interfacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		338B6BA71B5A96C4005313C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		338B6BA81B5A96C4005313C3 /* interfacesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = interfacesTests.m; sourceTree = "<group>"; };
+		33E9AE881B5F2E42000BDB12 /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
+		33E9AE891B5F2E42000BDB12 /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332CE2FA1B5BED5600E17A97 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 		338B6B801B5A96C4005313C3 = {
 			isa = PBXGroup;
 			children = (
+				332CE2F91B5BED5600E17A97 /* QuartzCore.framework */,
 				338B6B8B1B5A96C4005313C3 /* interfaces */,
 				338B6BA51B5A96C4005313C3 /* interfacesTests */,
 				338B6B8A1B5A96C4005313C3 /* Products */,
@@ -85,6 +95,10 @@
 				338B6B911B5A96C4005313C3 /* AppDelegate.m */,
 				338B6B931B5A96C4005313C3 /* ViewController.h */,
 				338B6B941B5A96C4005313C3 /* ViewController.m */,
+				33E9AE881B5F2E42000BDB12 /* TwitterViewController.h */,
+				33E9AE891B5F2E42000BDB12 /* TwitterViewController.m */,
+				332CE2FB1B5BEDC500E17A97 /* InstagramViewController.h */,
+				332CE2FC1B5BEDC500E17A97 /* InstagramViewController.m */,
 				338B6B961B5A96C4005313C3 /* Main.storyboard */,
 				338B6B991B5A96C4005313C3 /* Images.xcassets */,
 				338B6B9B1B5A96C4005313C3 /* LaunchScreen.xib */,
@@ -220,7 +234,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				338B6B951B5A96C4005313C3 /* ViewController.m in Sources */,
+				332CE2FD1B5BEDC500E17A97 /* InstagramViewController.m in Sources */,
 				338B6B921B5A96C4005313C3 /* AppDelegate.m in Sources */,
+				33E9AE8A1B5F2E42000BDB12 /* TwitterViewController.m in Sources */,
 				338B6B8F1B5A96C4005313C3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +432,7 @@
 				338B6BAE1B5A96C4005313C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		338B6BAF1B5A96C4005313C3 /* Build configuration list for PBXNativeTarget "interfacesTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +441,7 @@
 				338B6BB11B5A96C4005313C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
